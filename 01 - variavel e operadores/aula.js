@@ -11,6 +11,7 @@ Imprima no console o valor que será gasto de combustível para realizar esta vi
 let variavel1 = 10 + 10;
 console.log(variavel1);
 
+
 variavel1 = 10 - 10;
 console.log(variavel1);
 
