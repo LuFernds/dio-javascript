@@ -8,15 +8,11 @@ Você terá 3 váriaveis, sendo elas:
 Imprima no console o valor que será gasto de combustível para realizar esta viagem.
 */
 
-let variavel1 = 10 + 10;
-console.log(variavel1);
+const precoCombustivel = 5.62;
+const kmPorLitro = 8.6;
+let distanciaKM = 403;
 
-variavel1 = 10 - 10;
-console.log(variavel1);
+let valorGasto = (distanciaKM / mediaCombustivelKM) * precoCombustivel;
 
-variavel1 = 10 * 10;
-console.log(variavel1);
-
-variavel1 = 10 / 10;
-console.log(variavel1);
+console.log(valorGasto);
 
