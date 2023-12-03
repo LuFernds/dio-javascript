@@ -9,10 +9,9 @@ Imprima no console o valor que será gasto de combustível para realizar esta vi
 */
 
 const precoCombustivel = 5.62;
-const kmPorLitro = 8.6;
+const kmPorLitro = 9.6;
 let distanciaKM = 403;
 
-let valorGasto = (distanciaKM / mediaCombustivelKM) * precoCombustivel;
+let valorGasto = (distanciaKM / kmPorLitro) * precoCombustivel;
 
-console.log(valorGasto);
-
+console.log(valorGasto.toFixed(2));
