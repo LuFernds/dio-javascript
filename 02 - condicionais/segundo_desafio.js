@@ -11,6 +11,7 @@ Você terá 3 váriaveis, sendo elas:
 Imprima no console o valor que será gasto de combustível para realizar esta viagem.
 */
 
+
 const precoEtanol = 3.64;
 const precoGasolina = 5.62;
 const tipoCombustivel = 'gasolina';

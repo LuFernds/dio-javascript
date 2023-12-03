@@ -8,7 +8,6 @@ if (eNumeroPar) {
 }
 
 
-
 /*
 const numero = 9;
 const numeroDivisivelPor5 = (numero % 5) === 0;

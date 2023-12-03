@@ -15,5 +15,3 @@ let distanciaKM = 403;
 let valorGasto = (distanciaKM / kmPorLitro) * precoCombustivel;
 
 console.log(valorGasto.toFixed(2));
-
-
